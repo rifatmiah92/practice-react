@@ -26,6 +26,7 @@ const [visited,setVisited] = useState(false)
       </h4>
       <button onClick={handlerVisit}>{visited?"Visited":"Not Visited"
         }</button>
+        
     </div>
   );
 };
